@@ -18,7 +18,7 @@ test.describe('Создание задачи', () => {
       process.env.REPO,
       'Issue1',
       'Я нашел баг',
-      ['eaw1ch'],
+      [`${process.env.USER}`],
       ['bug']
     );
 
